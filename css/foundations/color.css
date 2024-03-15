@@ -5,7 +5,8 @@
   --tar-color-white: white;
   --tar-color-white-fade-50: rgba(255,255,255,.5);
 
-  --tar-color-blue-60: #0097CC; /*  #0097CC (lagoon) */
+  --tar-color-blue-40: rgb(188, 211, 242); /*  #BCD3F2  */
+  --tar-color-blue-60: rgb(0, 151, 204); /*  #0097CC (lagoon) */
 
   --tar-color-red-10: rgb(230,0,0); /* #E60000*/ 
   --tar-color-red-20: rgb(189, 0, 12); /* /* #BD000C */ 

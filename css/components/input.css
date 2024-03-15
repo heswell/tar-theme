@@ -9,12 +9,16 @@
     }
     
     .saltInput-primary {
-        border: solid 1px var(--input-borderColor, var(--salt-editable-borderColor));
+        border: var(--vuuEmbedded-borderStyle, solid) 1px var(--input-borderColor, var(--salt-editable-borderColor));
         border-radius: 2px;
     }
     
     .saltInput-focused:hover, 
     .saltInput-focused {
         --input-borderColor: var(--vuu-color-purple-10);
+    }
+
+    .saltInput-input::selection {
+        background-color: var(--tar-color-blue-40);
     }
 }

@@ -1,0 +1,7 @@
+.tar-theme {
+    .vuuCombobox {
+        &.vuuEmbedded {
+            --vuuEmbedded-borderStyle: none;
+        }
+    }
+}
