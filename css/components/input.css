@@ -11,6 +11,10 @@
     .saltInput-primary {
         border: var(--vuuEmbedded-borderStyle, solid) 1px var(--input-borderColor, var(--salt-editable-borderColor));
         border-radius: 2px;
+
+        &[data-embedded="true"]{
+            --vuuEmbedded-borderStyle: none;
+        }
     }
     
     .saltInput-focused:hover, 
