@@ -26,6 +26,8 @@
         --vuu-table-header-fontSize: 11px;
     }
 
+    --vuuTableColHeadings-background: var(--salt-container-secondary-background);
+
     .vuuTable-table {
         --columnResizer-color: var(--salt-separable-tertiary-borderColor);
         --columnResizer-height: var(--header-height);
