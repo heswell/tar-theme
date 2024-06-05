@@ -1,7 +1,7 @@
 /*
 * **Deprecated:** Use duration instead
 */
-.tar-theme {
+.salt-theme.tar-theme {
   /* Delay */
   --salt-delay-instant: 100ms;
   --salt-delay-perceptible: 300ms;
@@ -26,7 +26,7 @@
   --salt-shadow-5: 0 12px 40px 0 var(--salt-shadow-5-color); /* Use --salt-shadow-500 */
 }
 
-.tar-theme[data-mode="light"] {
+.salt-theme.tar-theme[data-mode="light"] {
   --salt-shadow-1-color: rgba(0, 0, 0, 0.1); /* Use --salt-shadow-100-color */
   --salt-shadow-2-color: rgba(0, 0, 0, 0.1); /* Use --salt-shadow-200-color */
   --salt-shadow-3-color: rgba(0, 0, 0, 0.15); /* Use --salt-shadow-300-color */
@@ -34,7 +34,7 @@
   --salt-shadow-5-color: rgba(0, 0, 0, 0.3); /* Use --salt-shadow-500-color */
 }
 
-.tar-theme[data-mode="dark"] {
+.salt-theme.tar-theme[data-mode="dark"] {
   --salt-shadow-1-color: rgba(0, 0, 0, 0.5); /* Use --salt-shadow-100-color */
   --salt-shadow-2-color: rgba(0, 0, 0, 0.5); /* Use --salt-shadow-200-color */
   --salt-shadow-3-color: rgba(0, 0, 0, 0.55); /* Use --salt-shadow-300-color */
@@ -61,7 +61,9 @@
   --salt-size-adornmentGap: calc(0.75 * var(--salt-size-unit));
   --salt-size-container-spacing: calc(3 * var(--salt-size-unit));
   --salt-size-separator-strokeWidth: 1px;
-  --salt-size-separator-height: calc(var(--salt-size-compact) + 1.5 * var(--salt-size-basis-unit));
+  --salt-size-separator-height: calc(
+    var(--salt-size-compact) + 1.5 * var(--salt-size-basis-unit)
+  );
   --salt-size-sharktooth-height: 5px;
   --salt-size-sharktooth-width: 10px;
   --salt-size-stackable: calc(var(--salt-size-base) + var(--salt-size-unit));

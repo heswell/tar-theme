@@ -1,6 +1,6 @@
-.tar-theme {
-  --salt-typography-fontFamily: "Nunito Sans";
-  --salt-typography-fontFamily-code: 'Sometype Mono';
+.salt-theme.tar-theme {
+  --salt-typography-fontFamily: "Frutiger";
+  --salt-typography-fontFamily-code: "Frutiger";
 
   --salt-typography-fontWeight-light: 300;
   --salt-typography-fontWeight-regular: 400;

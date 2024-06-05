@@ -4,9 +4,14 @@
   "license": "Apache-2.0",
   "style": "index.css",
   "files": [
+    "dist",
     "fonts"
   ],
   "scripts": {
-    "build": "node ../../scripts/run-build.mjs"
+    "build": "node ./scripts/build.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.20.2",
+    "prettier": "2.8.4"
   }
 }

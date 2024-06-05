@@ -1,79 +1,76 @@
+.salt-theme.tar-theme {
+  /** TODO these will need density variants */
+  --saltButton-borderRadius: 2px;
+  --saltButton-padding: var(--salt-spacing-200);
 
-.tar-theme {
-    /** TODO these will need density variants */
-    --saltButton-borderRadius: 2px;
-    --saltButton-padding: var(--salt-spacing-200);
+  .saltButton {
+    --vuu-icon-color: var(--vuuButtonIcon-color, var(--button-text-color));
+    gap: var(--salt-spacing-100);
+  }
 
-    .saltButton {
-        --vuu-icon-color: var(--vuuButtonIcon-color, var(--button-text-color));
-        gap: var(--salt-spacing-100);
+  .saltButton:disabled {
+    --vuu-icon-color: var(--button-text-color-disabled);
+  }
+  .saltButton:active:not(:disabled) {
+    --vuu-icon-color: var(--button-text-color-active);
+  }
+
+  .saltButton:hover:not(.saltButton-disabled, .saltButton-active, :active) {
+    --vuu-icon-color: var(--button-text-color-hover);
+  }
+
+  .saltButton-active {
+    --vuu-icon-color: var(--button-text-color-active);
+  }
+
+  .saltButton[data-embedded="true"] {
+    --saltButton-height: calc(var(--salt-size-base) - var(--salt-spacing-100));
+    --saltButton-borderStyle: none;
+  }
+
+  .vuuIconButton[data-embedded="true"] {
+    --saltButton-width: calc(var(--salt-size-base) - var(--salt-spacing-100));
+    --saltButton-minWidth: var(--saltButton-width);
+
+    --vuu-icon-width: 12px;
+  }
+
+  .saltButton-secondary {
+    --saltButton-borderColor: var(--tar-color-gray-40);
+    --saltButton-borderWidth: 1px;
+    --saltButton-borderStyle: solid;
+
+    &.saltButton-active {
+      --vuu-icon-color: var(--salt-palette-interact-foreground-active);
     }
 
-    .saltButton:disabled {
-        --vuu-icon-color: var(--button-text-color-disabled);
+    &:focus-visible {
+      --vuu-icon-color: var(--salt-palette-interact-foreground-active);
     }
-    .saltButton:active:not(:disabled) {
-        --vuu-icon-color: var(--button-text-color-active);
-    }
-        
-    .saltButton:hover:not(.saltButton-disabled,.saltButton-active, :active){
-        --vuu-icon-color: var(--button-text-color-hover);
-    }
-        
-    .saltButton-active {
-        --vuu-icon-color: var(--button-text-color-active); 
-    }
+  }
 
-    .saltButton[data-embedded="true"]{
-        --saltButton-height: calc(var(--salt-size-base) - var(--salt-spacing-100));
-        --saltButton-borderStyle: none; 
-    }
-
-    .vuuIconButton[data-embedded="true"]{
-        --saltButton-width: calc(var(--salt-size-base) - var(--salt-spacing-100));
-        --saltButton-minWidth: var(--saltButton-width);        
-
-        --vuu-icon-width: 12px;
-    }
-
-    .saltButton-secondary {
-        --saltButton-borderColor: var(--tar-color-gray-40);
-        --saltButton-borderWidth: 1px;
-        --saltButton-borderStyle: solid;
-
-        &.saltButton-active{
-            --vuu-icon-color: var(--salt-palette-interact-foreground-active);
-        }
-
-        &:focus-visible {
-            --vuu-icon-color: var(--salt-palette-interact-foreground-active);
-        }
-
-    }
-
-    .saltButton-secondary:not(:disabled):hover {
-        --saltButton-borderColor: var(--vuuButton-borderColor, var(--salt-actionable-secondary-background-hover));
-    }    
+  .saltButton-secondary:not(:disabled):hover {
+    --saltButton-borderColor: var(
+      --vuuButton-borderColor,
+      var(--salt-actionable-secondary-background-hover)
+    );
+  }
 }
 
-
-.tar-theme[theme-mode="light"]{
-    .saltButton-secondary {
-        --saltButton-borderColor: var(--tar-color-gray-40);
-    }
-    .saltButton-secondary:disabled {
-        --saltButton-borderColor: var(--tar-color-gray-20);
-    }    
-    
+.salt-theme.tar-theme[theme-mode="light"] {
+  .saltButton-secondary {
+    --saltButton-borderColor: var(--tar-color-gray-40);
+  }
+  .saltButton-secondary:disabled {
+    --saltButton-borderColor: var(--tar-color-gray-20);
+  }
 }
 
-.tar-theme[theme-mode="dark"]{
-    .saltButton-secondary {
-        --saltButton-borderColor: var(--tar-color-gray-35);
-    }
-    .saltButton-secondary:disabled {
-        --saltButton-borderColor: var(--tar-color-gray-30);
-    }    
-
+.salt-theme.tar-theme[theme-mode="dark"] {
+  .saltButton-secondary {
+    --saltButton-borderColor: var(--tar-color-gray-35);
+  }
+  .saltButton-secondary:disabled {
+    --saltButton-borderColor: var(--tar-color-gray-30);
+  }
 }
-

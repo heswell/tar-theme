@@ -1,4 +1,4 @@
-.tar-theme {
+.salt-theme.tar-theme {
   --salt-navigable-cursor-active: pointer;
   --salt-navigable-cursor-hover: pointer;
   --salt-navigable-cursor-disabled: not-allowed;
@@ -6,13 +6,21 @@
 
   --salt-navigable-fontWeight: var(--salt-typography-fontWeight-regular);
   --salt-navigable-fontWeight-hover: var(--salt-typography-fontWeight-regular);
-  --salt-navigable-fontWeight-active: var(--salt-typography-fontWeight-semiBold);
+  --salt-navigable-fontWeight-active: var(
+    --salt-typography-fontWeight-semiBold
+  );
   --salt-navigable-fontWeight-edit: var(--salt-typography-fontWeight-regular);
 
-  --salt-navigable-indicator-hover: var(--salt-palette-navigate-indicator-hover);
-  --salt-navigable-indicator-active: var(--salt-palette-navigate-indicator-active);
+  --salt-navigable-indicator-hover: var(
+    --salt-palette-navigate-indicator-hover
+  );
+  --salt-navigable-indicator-active: var(
+    --salt-palette-navigate-indicator-active
+  );
 
-  --salt-navigable-background-hover: var(--salt-palette-navigate-primary-background-hover);
+  --salt-navigable-background-hover: var(
+    --salt-palette-navigate-primary-background-hover
+  );
 
   /* Link */
   --salt-navigable-textDecoration: underline;

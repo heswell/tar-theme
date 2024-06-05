@@ -1,5 +1,4 @@
-
-.tar-theme {
+.salt-theme.tar-theme {
   color: var(--salt-content-primary-foreground);
   font-family: var(--salt-typography-fontFamily);
   font-size: var(--salt-text-fontSize);
@@ -11,11 +10,11 @@
   background: var(--salt-content-foreground-highlight);
 }
 
-.tar-theme[data-mode="light"] {
+.salt-theme.tar-theme[data-mode="light"] {
   color-scheme: light;
 }
 
-.tar-theme[data-mode="dark"] {
+.salt-theme.tar-theme[data-mode="dark"] {
   color-scheme: dark;
 }
 

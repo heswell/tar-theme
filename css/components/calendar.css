@@ -1,8 +1,8 @@
-.tar-theme {
-    .saltCalendar {
-        --saltButton-borderRadius: 0px;
-    }
-    .saltCalendarDay-selected {
-        color: var(--salt-selectable-foreground-selected);
-    }        
+.salt-theme.tar-theme {
+  .saltCalendar {
+    --saltButton-borderRadius: 0px;
+  }
+  .saltCalendarDay-selected {
+    color: var(--salt-selectable-foreground-selected);
+  }
 }

@@ -1,13 +1,12 @@
-.tar-theme[data-mode="light"] {
-    .vuuMenuItem.vuuHighlighted {
-        background-color: var(--tar-color-gray-05);
-    }
+.salt-theme.tar-theme[data-mode="light"] {
+  .vuuMenuItem.vuuHighlighted {
+    background-color: var(--tar-color-gray-05);
+  }
 }
 
-.tar-theme[data-mode="dark"]{
-    .vuuMenuItem.vuuHighlighted {
-        background-color: var(--tar-color-gray-05);
-        color: black;
-    }
+.salt-theme.tar-theme[data-mode="dark"] {
+  .vuuMenuItem.vuuHighlighted {
+    background-color: var(--tar-color-gray-05);
+    color: black;
+  }
 }
-

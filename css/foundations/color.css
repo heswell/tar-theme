@@ -1,14 +1,12 @@
-.tar-theme {
-
-
+.salt-theme.tar-theme {
   --tar-color-black: black;
   --tar-color-white: white;
-  --tar-color-white-fade-50: rgba(255,255,255,.5);
+  --tar-color-white-fade-50: rgba(255, 255, 255, 0.5);
 
-  --tar-color-blue-60: #0097CC; /*  #0097CC (lagoon) */
+  --tar-color-blue-60: #0097cc; /*  #0097CC (lagoon) */
 
-  --tar-color-red-10: rgb(230,0,0); /* #E60000*/ 
-  --tar-color-red-20: rgb(189, 0, 12); /* /* #BD000C */ 
+  --tar-color-red-10: rgb(230, 0, 0); /* #E60000*/
+  --tar-color-red-20: rgb(189, 0, 12); /* /* #BD000C */
   --tar-color-red-30: rgb(247, 128, 128); /* #F78080 */
   --tar-color-red-40: rgba(230, 0, 0, 0.502); /* #e6000080 */
 
@@ -27,5 +25,4 @@
   --tar-color-gray-67: rgb(38, 38, 38); /* #262626 */
   --tar-color-gray-68: rgb(41, 41, 41); /* #292929 */
   --tar-color-gray-70: rgb(28, 28, 28); /* #1C1C1C */
-
 }

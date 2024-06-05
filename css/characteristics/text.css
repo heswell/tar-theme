@@ -1,4 +1,4 @@
-.tar-theme {
+.salt-theme.tar-theme {
   /* Misc */
   --salt-text-letterSpacing: 0;
   --salt-text-textAlign: left;
@@ -21,8 +21,12 @@
   /* Notation */
   --salt-text-notation-fontFamily: var(--salt-typography-fontFamily);
   --salt-text-notation-fontWeight: var(--salt-typography-fontWeight-semiBold);
-  --salt-text-notation-fontWeight-small: var(--salt-typography-fontWeight-regular);
-  --salt-text-notation-fontWeight-strong: var(--salt-typography-fontWeight-bold);
+  --salt-text-notation-fontWeight-small: var(
+    --salt-typography-fontWeight-regular
+  );
+  --salt-text-notation-fontWeight-strong: var(
+    --salt-typography-fontWeight-bold
+  );
 
   /* H1 */
   --salt-text-h1-fontFamily: var(--salt-typography-fontFamily);
@@ -52,23 +56,37 @@
   --salt-text-label-fontFamily: var(--salt-typography-fontFamily);
   --salt-text-label-fontWeight: var(--salt-typography-fontWeight-regular);
   --salt-text-label-fontWeight-small: var(--salt-typography-fontWeight-light);
-  --salt-text-label-fontWeight-strong: var(--salt-typography-fontWeight-semiBold);
+  --salt-text-label-fontWeight-strong: var(
+    --salt-typography-fontWeight-semiBold
+  );
 
   /* Display text */
   --salt-text-display1-fontFamily: var(--salt-typography-fontFamily);
   --salt-text-display1-fontWeight: var(--salt-typography-fontWeight-semiBold);
-  --salt-text-display1-fontWeight-strong: var(--salt-typography-fontWeight-bold);
-  --salt-text-display1-fontWeight-small: var(--salt-typography-fontWeight-regular);
+  --salt-text-display1-fontWeight-strong: var(
+    --salt-typography-fontWeight-bold
+  );
+  --salt-text-display1-fontWeight-small: var(
+    --salt-typography-fontWeight-regular
+  );
 
   --salt-text-display2-fontFamily: var(--salt-typography-fontFamily);
   --salt-text-display2-fontWeight: var(--salt-typography-fontWeight-semiBold);
-  --salt-text-display2-fontWeight-strong: var(--salt-typography-fontWeight-bold);
-  --salt-text-display2-fontWeight-small: var(--salt-typography-fontWeight-regular);
+  --salt-text-display2-fontWeight-strong: var(
+    --salt-typography-fontWeight-bold
+  );
+  --salt-text-display2-fontWeight-small: var(
+    --salt-typography-fontWeight-regular
+  );
 
   --salt-text-display3-fontFamily: var(--salt-typography-fontFamily);
   --salt-text-display3-fontWeight: var(--salt-typography-fontWeight-semiBold);
-  --salt-text-display3-fontWeight-strong: var(--salt-typography-fontWeight-bold);
-  --salt-text-display3-fontWeight-small: var(--salt-typography-fontWeight-regular);
+  --salt-text-display3-fontWeight-strong: var(
+    --salt-typography-fontWeight-bold
+  );
+  --salt-text-display3-fontWeight-small: var(
+    --salt-typography-fontWeight-regular
+  );
 
   /* Code */
   --salt-text-code-fontFamily: var(--salt-typography-fontFamily-code);

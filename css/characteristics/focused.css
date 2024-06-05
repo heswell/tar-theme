@@ -1,11 +1,12 @@
-.tar-theme {
+.salt-theme.tar-theme {
   --salt-focused-outlineColor: var(--salt-palette-interact-outline);
   --salt-focused-outlineStyle: dotted;
   --salt-focused-outlineWidth: 2px;
   --salt-focused-outlineInset: 0;
   --salt-focused-outlineOffset: 0;
 
-  --salt-focused-outline: var(--salt-focused-outlineWidth) var(--salt-focused-outlineStyle) var(--salt-focused-outlineColor); /* CSS shortcut token: not in Figma */
+  --salt-focused-outline: var(--salt-focused-outlineWidth)
+    var(--salt-focused-outlineStyle) var(--salt-focused-outlineColor); /* CSS shortcut token: not in Figma */
 }
 
 .saltFocusVisible:after,

@@ -1,5 +1,5 @@
-.tar-theme {
-    .saltIcon {
-        display: none;
-    }
+.salt-theme.tar-theme {
+  .saltIcon {
+    display: none;
+  }
 }
