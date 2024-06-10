@@ -1,0 +1,17 @@
+.salt-theme.tar-theme {
+  .vuuScrollable {
+    ::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border-radius: 4px;
+      background: #d9d9d9;
+    }
+  }
+}

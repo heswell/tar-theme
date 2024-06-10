@@ -93,7 +93,7 @@
 }
 
 /* Sizes by density */
-.tar-density-touch {
+.salt-density-touch {
   --salt-text-h1-fontSize: 42px;
   --salt-text-h1-lineHeight: 54px;
 
@@ -126,7 +126,7 @@
   --salt-text-notation-lineHeight: 18px;
 }
 
-.tar-density-low {
+.salt-density-low {
   --salt-text-h1-fontSize: 32px;
   --salt-text-h1-lineHeight: 42px;
 
@@ -159,7 +159,7 @@
   --salt-text-notation-lineHeight: 16px;
 }
 
-.tar-density-medium {
+.salt-density-medium {
   --salt-text-h1-fontSize: 24px;
   --salt-text-h1-lineHeight: 32px;
 
@@ -192,7 +192,7 @@
   --salt-text-notation-lineHeight: 13px;
 }
 
-.tar-density-high {
+.salt-density-high {
   --salt-text-h1-fontSize: 18px;
   --salt-text-h1-lineHeight: 24px;
 

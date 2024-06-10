@@ -1,8 +1,16 @@
 .salt-theme.tar-theme {
-  .vuuListItem.vuuHighlighted:not(.vuuFocusVisible) {
+  .vuuListItem {
     border-width: 2px;
-    border-color: var(--salt-selectable-borderColor-hover);
-    border-style: none solid;
-    padding: var(--salt-spacing-50);
+    border-bottom-color: var(
+      --vuuListItem-separator-color,
+      var(--salt-separable-tertiary-borderColor)
+    );
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-style: none solid solid solid;
+  }
+  .vuuListItem.vuuHighlighted:not(.vuuFocusVisible) {
+    border-left-color: var(--salt-selectable-borderColor-hover);
+    border-right-color: var(--salt-selectable-borderColor-hover);
   }
 }

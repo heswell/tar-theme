@@ -12,16 +12,16 @@
 }
 
 .salt-theme.tar-theme {
-  &.tar-density-high {
+  &.salt-density-high {
     --vuu-table-header-fontSize: 11px;
   }
-  &.tar-density-medium {
+  &.salt-density-medium {
     --vuu-table-header-fontSize: 11px;
   }
-  &.tar-density-low {
+  &.salt-density-low {
     --vuu-table-header-fontSize: 11px;
   }
-  &.tar-density-touch {
+  &.salt-density-touch {
     --vuu-table-header-fontSize: 11px;
   }
 

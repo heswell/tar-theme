@@ -1,0 +1,5 @@
+.salt-theme.tar-theme {
+  --vuuContextPanel-padding: 0px 24px;
+  --vuuContextPanel-width: 340px;
+  --vuuList-borderStyle: none;
+}

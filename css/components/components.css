@@ -7,6 +7,8 @@
 @import url(input.css);
 @import url(list.css);
 @import url(menu-list.css);
+@import url(shell.css);
+@import url(scrollable.css);
 @import url(splitter.css);
 @import url(switch.css);
 @import url(table.css);

@@ -6,8 +6,9 @@
   line-height: var(--salt-text-lineHeight);
 }
 
-.salt-theme ::selection {
+.salt-theme.tar-theme ::selection {
   background: var(--salt-content-foreground-highlight);
+  color: black;
 }
 
 .salt-theme.tar-theme[data-mode="light"] {
