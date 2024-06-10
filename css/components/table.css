@@ -25,9 +25,27 @@
     --vuu-table-header-fontSize: 11px;
   }
 
+  --vuuTableColHeadings-background: var(--salt-container-secondary-background);
+
+  .vuuTable-table {
+    --columnResizer-color: var(--salt-separable-tertiary-borderColor);
+    --columnResizer-height: var(--header-height);
+  }
+
   .vuuTableHeaderCell-label {
     font-size: var(--vuu-table-header-fontSize);
     font-weight: 700;
+  }
+
+  .vuuTableHeaderCell-resizing {
+    --columnResizer-color: var(--salt-selectable-background-selected);
+  }
+
+  .vuuTableHeaderCell:not(.vuuTableHeaderCell-resizing) {
+    .vuuColumnResizer:after {
+      --columnResizer-height: calc(var(--header-height) - 10px);
+      top: 5px;
+    }
   }
 
   .vuuTableRow-selected:not(

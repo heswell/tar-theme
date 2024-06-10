@@ -3,6 +3,8 @@
   --switch-height: calc(var(--salt-size-base) - var(--salt-spacing-200));
   --switch-width: calc(var(--salt-size-base) * 2);
 
+  gap: 0;
+
   .saltSwitch-input {
     height: var(--switch-height);
   }
@@ -21,6 +23,23 @@
 
   .saltSwitch-thumb {
     border-radius: 6px;
+  }
+
+  &.saltSwitch-disabled {
+    .saltSwitch-track {
+      background: var(--salt-selectable-background-disabled);
+    }
+    &.saltSwitch-checked {
+      .saltSwitch-track {
+        background: var(--salt-selectable-background-selectedDisabled);
+        &:after {
+          color: var(--salt-selectable-foreground-selectedDisabled);
+        }
+        .saltSwitch-thumb {
+          background: var(--salt-selectable-foreground-disabled);
+        }
+      }
+    }
   }
 
   &:not(.saltSwitch-checked) {

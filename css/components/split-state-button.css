@@ -1,0 +1,26 @@
+.salt-theme.tar-theme {
+  .vuuSplitStateButton {
+    --saltButton-borderStyle: solid;
+    --saltButton-borderWidth: 1px;
+    --saltButton-borderColor: var(--salt-actionable-primary-background-active);
+
+    &:hover .saltButton {
+      border-color: var(--salt-actionable-primary-background-active);
+    }
+  }
+
+  .vuuSplitStateButton:not([aria-checked="true"]) {
+    --saltButton-text-color: var(--salt-actionable-primary-background-active);
+    --saltButton-text-color-hover: var(
+      --salt-actionable-primary-background-active
+    );
+  }
+
+  &:hover .saltButton {
+    color: var(--salt-actionable-primary-background-active);
+  }
+
+  .vuuIcon {
+    --vuu-icon-color: var(--salt-actionable-primary-background-active);
+  }
+}

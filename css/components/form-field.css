@@ -1,0 +1,12 @@
+.salt-theme.tar-theme {
+  .saltFormField {
+    .saltFormFieldLabel {
+      font-size: var(--salt-text-h4-fontSize);
+    }
+    &:has(.saltInput) {
+      border: solid var(--salt-editable-borderColor) 1px;
+      border-radius: 2px;
+      padding: var(--salt-spacing-50) var(--salt-spacing-200);
+    }
+  }
+}
