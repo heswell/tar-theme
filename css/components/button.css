@@ -4,23 +4,29 @@
   --saltButton-padding: var(--salt-spacing-200);
 
   .saltButton {
-    --vuu-icon-color: var(--vuuButtonIcon-color, var(--button-text-color));
     gap: var(--salt-spacing-100);
+
+    .vuuIcon {
+      --vuu-icon-color: var(--vuuButtonIcon-color, var(--button-text-color));
+    }
   }
 
   .saltButton:disabled {
-    --vuu-icon-color: var(--button-text-color-disabled);
+    .vuuIcon {
+      --vuu-icon-color: var(--button-text-color-disabled);
+    }
   }
+  .saltButton-active,
   .saltButton:active:not(:disabled) {
-    --vuu-icon-color: var(--button-text-color-active);
+    .vuuIcon {
+      --vuu-icon-color: var(--button-text-color-active);
+    }
   }
 
   .saltButton:hover:not(.saltButton-disabled, .saltButton-active, :active) {
-    --vuu-icon-color: var(--button-text-color-hover);
-  }
-
-  .saltButton-active {
-    --vuu-icon-color: var(--button-text-color-active);
+    .vuuIcon {
+      --vuu-icon-color: var(--button-text-color-hover);
+    }
   }
 
   .saltButton[data-embedded="true"] {
@@ -40,12 +46,10 @@
     --saltButton-borderWidth: 1px;
     --saltButton-borderStyle: solid;
 
-    &.saltButton-active {
-      --vuu-icon-color: var(--salt-palette-interact-foreground-active);
-    }
-
     &:focus-visible {
-      --vuu-icon-color: var(--salt-palette-interact-foreground-active);
+      .vuuIcon {
+        --vuu-icon-color: var(--salt-palette-interact-foreground-active);
+      }
     }
   }
 

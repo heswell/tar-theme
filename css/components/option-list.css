@@ -1,0 +1,7 @@
+.salt-theme.tar-theme {
+  .saltOptionList {
+    .saltOption {
+      padding: 0 var(--salt-spacing-200);
+    }
+  }
+}

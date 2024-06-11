@@ -6,6 +6,7 @@
 
     &:hover .saltButton {
       border-color: var(--salt-actionable-primary-background-active);
+      color: var(--salt-actionable-primary-background-active);
     }
   }
 
@@ -14,10 +15,6 @@
     --saltButton-text-color-hover: var(
       --salt-actionable-primary-background-active
     );
-  }
-
-  &:hover .saltButton {
-    color: var(--salt-actionable-primary-background-active);
   }
 
   .vuuIcon {
