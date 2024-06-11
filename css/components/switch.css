@@ -1,76 +1,77 @@
-.saltSwitch {
-  --vuu-icon-left: -1px;
-  --switch-height: calc(var(--salt-size-base) - var(--salt-spacing-200));
-  --switch-width: calc(var(--salt-size-base) * 2);
+.salt-theme.tar-theme {
+  .saltSwitch {
+    --vuu-icon-left: -1px;
+    --switch-height: calc(var(--salt-size-base) - var(--salt-spacing-200));
+    --switch-width: calc(var(--salt-size-base) * 2);
 
-  gap: 0;
-
-  .saltSwitch-input {
-    height: var(--switch-height);
-  }
-  .saltSwitch-label {
-    padding-top: 0;
-  }
-
-  .saltSwitch-track {
-    background: var(--salt-selectable-background);
-    border-radius: 8px;
-    height: var(--switch-height);
-    padding: 0 var(--salt-spacing-50);
-    position: relative;
-    width: var(--switch-width);
-  }
-
-  .saltSwitch-thumb {
-    border-radius: 6px;
-  }
-
-  &.saltSwitch-disabled {
-    .saltSwitch-track {
-      background: var(--salt-selectable-background-disabled);
+    .saltSwitch-input {
+      height: var(--switch-height);
     }
-    &.saltSwitch-checked {
+    .saltSwitch-label {
+      padding-top: 0;
+    }
+
+    .saltSwitch-track {
+      background: var(--salt-selectable-background);
+      border-radius: 8px;
+      height: var(--switch-height);
+      padding: 0 var(--salt-spacing-50);
+      position: relative;
+      width: var(--switch-width);
+    }
+
+    .saltSwitch-thumb {
+      border-radius: 6px;
+      margin: 0;
+    }
+
+    &.saltSwitch-disabled {
       .saltSwitch-track {
-        background: var(--salt-selectable-background-selectedDisabled);
-        &:after {
-          color: var(--salt-selectable-foreground-selectedDisabled);
-        }
-        .saltSwitch-thumb {
-          background: var(--salt-selectable-foreground-disabled);
+        background: var(--salt-selectable-background-disabled);
+      }
+      &.saltSwitch-checked {
+        .saltSwitch-track {
+          background: var(--salt-selectable-background-selectedDisabled);
+          &:after {
+            color: var(--salt-selectable-foreground-selectedDisabled);
+          }
+          .saltSwitch-thumb {
+            background: var(--salt-selectable-foreground-disabled);
+          }
         }
       }
     }
-  }
 
-  &:not(.saltSwitch-checked) {
-    .saltSwitch-track:after {
-      color: var(--salt-content-secondary-foreground);
-      content: "OFF";
-      font-size: 11px;
-      position: absolute;
-      right: var(--salt-spacing-100);
-      top: 0px;
+    &:not(.saltSwitch-checked) {
+      .saltSwitch-track:after {
+        color: var(--salt-content-secondary-foreground);
+        content: "OFF";
+        font-size: 11px;
+        position: absolute;
+        right: var(--salt-spacing-100);
+        top: 0px;
+      }
+      .saltSwitch-thumb {
+        background: var(--salt-selectable-borderColor);
+      }
     }
-    .saltSwitch-thumb {
-      background: var(--salt-selectable-borderColor);
-    }
-  }
 
-  &.saltSwitch-checked {
-    .saltSwitch-track {
-      background: var(--salt-selectable-background-selected);
-    }
-    .saltSwitch-track:after {
-      color: var(--salt-selectable-foreground-selected);
-      content: "ON";
-      font-size: 11px;
-      position: absolute;
-      left: var(--salt-spacing-100);
-      top: 0px;
-    }
-    .saltSwitch-thumb {
-      background: var(--salt-selectable-foreground-selected);
-      transform: translateX(30px);
+    &.saltSwitch-checked {
+      .saltSwitch-track {
+        background: var(--salt-palette-interact-primary-background-active);
+      }
+      .saltSwitch-track:after {
+        color: var(--salt-selectable-foreground-selected);
+        content: "ON";
+        font-size: 11px;
+        position: absolute;
+        left: var(--salt-spacing-100);
+        top: 0px;
+      }
+      .saltSwitch-thumb {
+        background: var(--salt-selectable-foreground-selected);
+        transform: translateX(30px);
+      }
     }
   }
 }

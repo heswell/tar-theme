@@ -3,6 +3,7 @@
 @import url(checkbox.css);
 @import url(combo-box.css);
 @import url(date-input.css);
+@import url(dialog.css);
 @import url(dropdown.css);
 @import url(form-field.css);
 @import url(icon.css);
@@ -11,6 +12,7 @@
 @import url(list.css);
 @import url(menu-list.css);
 @import url(option-list.css);
+@import url(portal.css);
 @import url(shell.css);
 @import url(scrollable.css);
 @import url(split-button.css);

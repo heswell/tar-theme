@@ -6,7 +6,9 @@
   }
 
   .saltCheckbox:has(.saltCheckboxIcon-checked) {
-    --checkbox-background: var(--salt-selectable-background-selected);
+    --checkbox-background: var(
+      --salt-palette-interact-primary-background-active
+    );
   }
 
   .saltCheckboxIcon {

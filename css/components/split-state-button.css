@@ -1,23 +1,37 @@
 .salt-theme.tar-theme {
   .vuuSplitStateButton {
+    --saltButton-background: var(--salt-actionable-secondary-background);
     --saltButton-borderStyle: solid;
     --saltButton-borderWidth: 1px;
     --saltButton-borderColor: var(--salt-actionable-primary-background-active);
-
-    &:hover .saltButton {
-      border-color: var(--salt-actionable-primary-background-active);
-      color: var(--salt-actionable-primary-background-active);
-    }
-  }
-
-  .vuuSplitStateButton:not([aria-checked="true"]) {
     --saltButton-text-color: var(--salt-actionable-primary-background-active);
     --saltButton-text-color-hover: var(
       --salt-actionable-primary-background-active
     );
-  }
 
-  .vuuIcon {
-    --vuu-icon-color: var(--salt-actionable-primary-background-active);
+    .vuuIcon {
+      --vuu-icon-color: var(--salt-actionable-secondary-foreground);
+    }
+
+    &:hover .saltButton {
+      border-color: var(--salt-actionable-primary-background-active);
+    }
+
+    .vuuSplitButton-main {
+      border-right: none;
+    }
+    .vuuSplitButton-trigger {
+      border-left: none;
+    }
+  }
+  .vuuSplitStateButton[aria-checked="true"] {
+    --saltButton-background: var(--salt-actionable-secondary-background-active);
+    --saltButton-text-color: var(--salt-actionable-secondary-foreground-active);
+    --saltButton-text-color-hover: var(
+      --salt-actionable-secondary-foreground-active
+    );
+    .vuuIcon {
+      --vuu-icon-color: var(--salt-actionable-primary-foreground-active);
+    }
   }
 }
