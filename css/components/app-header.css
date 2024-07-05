@@ -1,0 +1,8 @@
+.salt-theme.tar-theme {
+  .vuuAppHeader {
+    border-color: var(--salt-container-primary-borderColor);
+
+    border-style: none none solid none;
+    height: 38px;
+  }
+}

@@ -2,4 +2,18 @@
   --vuuContextPanel-padding: 0px 24px;
   --vuuContextPanel-width: 340px;
   --vuuList-borderStyle: none;
+  --vuuShell-content-padding: 0;
+
+  .vuuShell-mainTabs {
+    background: var(--salt-container-secondary-background);
+
+    .vuuHeader {
+      --saltButton-background: inherit;
+      background: inherit;
+      border-style: none none solid none;
+      border-color: var(--salt-container-primary-borderColor);
+      border-width: 1px;
+      height: 28px;
+    }
+  }
 }

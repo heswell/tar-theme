@@ -37,8 +37,10 @@
   .vuuIconButton[data-embedded="true"] {
     --saltButton-width: calc(var(--salt-size-base) - var(--salt-spacing-100));
     --saltButton-minWidth: var(--saltButton-width);
-
     --vuu-icon-width: 12px;
+    &.saltButton-secondary {
+      background: inherit;
+    }
   }
 
   .saltButton-secondary {

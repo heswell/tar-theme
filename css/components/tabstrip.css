@@ -7,11 +7,13 @@
   }
 
   .vuuTabstrip-secondary {
-    --vuuOverflowContainer-height: calc(
-      var(--salt-size-base) + var(--salt-spacing-50)
-    );
-    --vuuOverflowContainer-contentHeight: calc(
-      var(--vuuOverflowContainer-height) - 1px
-    );
+    &.vuuOrientation-horizontal {
+      --vuuOverflowContainer-height: calc(
+        var(--salt-size-base) + var(--salt-spacing-50)
+      );
+      --vuuOverflowContainer-contentHeight: calc(
+        var(--vuuOverflowContainer-height) - 1px
+      );
+    }
   }
 }

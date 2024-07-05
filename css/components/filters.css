@@ -1,3 +1,7 @@
 .salt-theme.tar-theme {
   --vuuFilterBar-borderStyle: none;
+
+  .vuuFilterBar {
+    background: inherit;
+  }
 }
