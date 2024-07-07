@@ -3,6 +3,6 @@
     border-color: var(--salt-container-primary-borderColor);
 
     border-style: none none solid none;
-    height: 38px;
+    flex: 0 0 38px;
   }
 }

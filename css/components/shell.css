@@ -16,4 +16,9 @@
       height: 28px;
     }
   }
+
+  .vuuShell-content-main {
+    background-color: var(--salt-container-secondary-background);
+    padding-top: var(--salt-spacing-200);
+  }
 }
