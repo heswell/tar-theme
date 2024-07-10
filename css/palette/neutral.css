@@ -29,7 +29,7 @@
     --salt-color-gray-200-fade-foreground
   );
   --salt-palette-neutral-backdrop: var(--tar-color-white-fade-backdrop);
-  --salt-palette-neutral-secondary-separator: var(--vuu-color-gray-05);
+  --salt-palette-neutral-secondary-separator: var(--tar-color-gray-05);
   --salt-palette-neutral-tertiary-separator: var(--tar-color-gray-03);
 }
 

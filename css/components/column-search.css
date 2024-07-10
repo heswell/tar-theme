@@ -1,0 +1,9 @@
+.salt-theme.tar-theme {
+  .vuuColumnSearch {
+    .vuuListItem {
+      border-width: 0 2px 0 2px;
+      gap: var(--salt-spacing-100);
+      padding: 0 var(--salt-spacing-100);
+    }
+  }
+}

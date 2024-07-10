@@ -1,8 +1,7 @@
 .salt-theme.tar-theme {
   .saltToggleButtonGroup {
     --togglebutton-borderRadius: 2px;
-    /** TODO vary by density */
-    --salt-spacing-100: 16px;
+    border-color: var(--tar-color-gray-40);
     border-radius: 2px;
     gap: 0;
     height: var(--salt-size-base);
@@ -15,6 +14,8 @@
 
   .saltToggleButton {
     border-radius: var(--togglebutton-borderRadius);
+    padding-left: var(--salt-spacing-200);
+    padding-right: var(--salt-spacing-200);
     /** TODO vary by density */
     gap: 8px;
 

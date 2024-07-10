@@ -3,7 +3,7 @@
     .saltFormFieldLabel {
       font-size: var(--salt-text-h4-fontSize);
     }
-    &:has(.saltInput) {
+    &:has(.saltInput):not([data-embedded]) {
       border: solid var(--salt-editable-borderColor) 1px;
       border-radius: 2px;
       padding: var(--salt-spacing-50) var(--salt-spacing-200);
