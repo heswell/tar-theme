@@ -25,7 +25,10 @@
 
   .saltButton:hover:not(.saltButton-disabled, .saltButton-active, :active) {
     .vuuIcon {
-      --vuu-icon-color: var(--button-text-color-hover);
+      --vuu-icon-color: var(
+        --vuuButtonIcon-color,
+        var(--button-text-color-hover)
+      );
     }
   }
 
@@ -38,7 +41,7 @@
     --saltButton-width: calc(var(--salt-size-base) - var(--salt-spacing-100));
     --saltButton-minWidth: var(--saltButton-width);
     --vuu-icon-width: 12px;
-    &.saltButton-secondary {
+    &.saltButton-secondary:not(:hover) {
       background: inherit;
     }
   }
