@@ -1,8 +1,8 @@
 .salt-theme.tar-theme[data-mode="light"] {
-  --salt-palette-error-background: var(--salt-color-red-10);
-  --salt-palette-error-background-selected: var(--salt-color-red-20);
-  --salt-palette-error-border: var(--salt-color-red-500);
-  --salt-palette-error-foreground: var(--salt-color-red-500);
+  --salt-palette-error-background: var(--tar-color-red-22);
+  --salt-palette-error-background-selected: var(--tar-color-red-22);
+  --salt-palette-error-border: var(--tar-color-red-20);
+  --salt-palette-error-foreground: var(--tar-color-red-20);
 }
 
 .salt-theme.tar-theme[data-mode="dark"] {

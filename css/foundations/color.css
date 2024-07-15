@@ -3,12 +3,14 @@
   --tar-color-white: white;
   --tar-color-white-fade-50: rgba(255, 255, 255, 0.5);
 
+  --tar-color-blue-10: #dee2e9; /*  #095F95 (lagoon) */
   --tar-color-blue-20: rgb(9, 95, 149); /*  #095F95 (lagoon) */
   --tar-color-blue-40: rgb(188, 211, 242); /*  #BCD3F2  */
   --tar-color-blue-60: rgb(0, 151, 204); /*  #0097CC (lagoon) */
 
   --tar-color-red-10: rgb(230, 0, 0); /* #E60000*/
   --tar-color-red-20: rgb(189, 0, 12); /* /* #BD000C */
+  --tar-color-red-22: #f7e1df;
   --tar-color-red-25: rgb(240, 204, 208); /* /* #F)CCD0 */
   --tar-color-red-30: rgb(247, 128, 128); /* #F78080 */
   --tar-color-red-40: rgba(230, 0, 0, 0.502); /* #e6000080 */
@@ -29,4 +31,10 @@
   --tar-color-gray-67: rgb(38, 38, 38); /* #262626 */
   --tar-color-gray-68: rgb(41, 41, 41); /* #292929 */
   --tar-color-gray-70: rgb(28, 28, 28); /* #1C1C1C */
+
+  --tar-color-green-30: #eaeab7;
+  --tar-color-green-60: #879420;
+
+  --tar-color-orange-30: #f7f3dd;
+  --tar-color-orange-60: #eeb514;
 }

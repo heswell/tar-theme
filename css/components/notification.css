@@ -1,0 +1,28 @@
+.salt-theme.tar-theme {
+  .vuuToastNotification {
+    --vuu-icon-color: var(--salt-status-success-foreground);
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px 2px 2px 8px;
+  }
+  .vuuToastNotification-error {
+    --notification-color: var(--salt-content-primary-foreground);
+    --vuu-icon-color: var(--salt-status-error-foreground);
+    border-color: var(--salt-status-error-borderColor);
+  }
+  .vuuToastNotification-info {
+    --notification-color: var(--salt-content-primary-foreground);
+    --vuu-icon-color: var(--salt-status-info-foreground);
+    border-color: var(--salt-status-info-borderColor);
+  }
+  .vuuToastNotification-success {
+    --notification-color: var(--salt-content-primary-foreground);
+    --vuu-icon-color: var(--salt-status-success-foreground);
+    border-color: var(--salt-status-success-borderColor);
+  }
+  .vuuToastNotification-warning {
+    --notification-color: var(--salt-content-primary-foreground);
+    --vuu-icon-color: var(--salt-status-warning-foreground);
+    border-color: var(--salt-status-warning-borderColor);
+  }
+}

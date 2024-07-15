@@ -4,4 +4,10 @@
   .vuuFilterBar {
     background: inherit;
   }
+
+  .vuuQuickFilters {
+    .saltFormFieldLabel {
+      margin: 0;
+    }
+  }
 }

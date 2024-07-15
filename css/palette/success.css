@@ -1,8 +1,8 @@
 .salt-theme.tar-theme[data-mode="light"] {
-  --salt-palette-success-background: var(--salt-color-green-10);
-  --salt-palette-success-background-selected: var(--salt-color-green-20);
-  --salt-palette-success-border: var(--salt-color-green-500);
-  --salt-palette-success-foreground: var(--salt-color-green-500);
+  --salt-palette-success-background: var(--tar-color-green-30);
+  --salt-palette-success-background-selected: var(--tar-color-green-30);
+  --salt-palette-success-border: var(--tar-color-green-60);
+  --salt-palette-success-foreground: var(--tar-color-green-60);
 }
 
 .salt-theme.tar-theme[data-mode="dark"] {

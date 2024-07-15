@@ -1,11 +1,11 @@
 .salt-theme.tar-theme[data-mode="light"] {
-  --salt-palette-info-background: var(--salt-color-blue-10);
-  --salt-palette-info-border: var(--salt-color-blue-500);
-  --salt-palette-info-foreground: var(--salt-color-blue-500);
+  --salt-palette-info-background: var(--tar-color-blue-10);
+  --salt-palette-info-border: var(--tar-color-blue-20);
+  --salt-palette-info-foreground: var(--tar-color-blue-20);
 }
 
 .salt-theme.tar-theme[data-mode="dark"] {
-  --salt-palette-info-background: var(--salt-color-blue-900);
-  --salt-palette-info-border: var(--salt-color-blue-500);
-  --salt-palette-info-foreground: var(--salt-color-blue-500);
+  --salt-palette-info-background: var(--tar-color-blue-10);
+  --salt-palette-info-border: var(--tar-color-blue-20);
+  --salt-palette-info-foreground: var(--tar-color-blue-20);
 }
