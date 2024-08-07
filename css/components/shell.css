@@ -4,7 +4,7 @@
   --vuuList-borderStyle: none;
   --vuuShell-content-padding: 0;
 
-  .vuuShell-mainTabs {
+  .vuu-workspace-tabs {
     background: var(--salt-container-secondary-background);
 
     .vuuHeader {
@@ -17,7 +17,7 @@
     }
   }
 
-  .vuuShell-content-main {
+  #vuu-workspace-container {
     background-color: var(--salt-container-secondary-background);
     padding-top: var(--salt-spacing-200);
   }
