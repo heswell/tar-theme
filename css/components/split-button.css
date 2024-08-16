@@ -1,3 +1,15 @@
 .salt-theme.tar-theme {
   --vuuSplitButton-borderRadius: 2px;
+
+  .vuuSplitButton {
+    --saltButton-borderWidth: 0;
+  }
+
+  .vuuSplitButton-disabled.vuuFocusVisible {
+    outline-style: none;
+  }
+
+  .saltButton:hover {
+    border-color: transparent;
+  }
 }

@@ -1,6 +1,9 @@
 .salt-theme.tar-theme {
   .saltOptionList {
+    border-radius: 2px;
+
     .saltOption {
+      align-items: center;
       padding: 0 var(--salt-spacing-200);
     }
   }

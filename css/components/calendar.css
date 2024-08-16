@@ -1,6 +1,10 @@
 .salt-theme.tar-theme {
   .saltCalendar {
     --saltButton-borderRadius: 0px;
+
+    .saltIcon {
+      display: block;
+    }
   }
   .saltCalendarDay-selected {
     color: var(--salt-selectable-foreground-selected);

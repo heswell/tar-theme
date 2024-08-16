@@ -1,0 +1,33 @@
+.salt-theme.tar-theme {
+  .VuuDatePicker {
+    --saltDateInput-height: 18px;
+    --saltDateInput-minHeight: 18px;
+    --saltDateInput-paddingRight: 0;
+    /* --saltDateInput-minWidth: 100px; */
+
+    .saltDateInput-input {
+      min-width: 74px;
+    }
+
+    .saltDateInput-endAdornmentContainer {
+      padding-left: 0;
+    }
+
+    .saltButton {
+      border: none;
+      width: 20px;
+      .saltIcon {
+        display: block;
+        position: relative;
+        left: -1px;
+      }
+    }
+    &.saltDateInput-focused {
+      outline: none;
+    }
+
+    .saltDateInput-activationIndicator {
+      display: none;
+    }
+  }
+}

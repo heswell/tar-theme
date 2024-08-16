@@ -1,4 +1,7 @@
 .salt-theme.tar-theme[data-mode="light"] {
+  .vuuMenuItem {
+    font-size: 12px;
+  }
   .vuuMenuItem.vuuHighlighted {
     background-color: var(--tar-color-gray-05);
   }

@@ -3,6 +3,23 @@
 
   .vuuFilterBar {
     background: inherit;
+
+    [data-icon="grid"] {
+      --vuu-icon-svg: var(--svg-filter);
+    }
+    [data-icon="tune"] {
+      --vuu-icon-svg: var(--vuu-svg-search);
+    }
+  }
+
+  .vuuFilterPill {
+    .vuuEditableLabel {
+      --salt-focused-outline: none;
+    }
+
+    .saltButton:focus-visible {
+      border-color: transparent;
+    }
   }
 
   .vuuQuickFilters {
