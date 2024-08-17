@@ -14,7 +14,11 @@
     }
 
     &:hover .saltButton {
+      .vuuIcon {
+        --vuu-icon-color: var(--salt-actionable-primary-background-active);
+      }
       border-color: var(--salt-actionable-primary-background-active);
+      color: inherit;
     }
 
     .vuuSplitButton-main {
@@ -32,6 +36,13 @@
     );
     .vuuIcon {
       --vuu-icon-color: var(--salt-actionable-primary-foreground-active);
+    }
+
+    &:hover .saltButton {
+      .vuuIcon {
+        --vuu-icon-color: var(--salt-actionable-secondary-foreground-active);
+      }
+      color: var(--salt-actionable-secondary-foreground-active);
     }
   }
 }
