@@ -41,8 +41,11 @@
     --saltButton-width: calc(var(--salt-size-base) - var(--salt-spacing-100));
     --saltButton-minWidth: var(--saltButton-width);
     --vuu-icon-width: 12px;
-    &.saltButton-secondary:not(:hover) {
+    &.saltButton-secondary:not(:hover, .saltButton-active) {
       background: inherit;
+    }
+    &.saltButton-active {
+      background: var(--salt-actionable-primary-background);
     }
   }
 
@@ -51,7 +54,7 @@
     --saltButton-borderWidth: 1px;
     --saltButton-borderStyle: solid;
 
-    &:focus-visible {
+    &:focus-visible:not([data-embedded]) {
       .vuuIcon {
         --vuu-icon-color: var(--salt-palette-interact-foreground-active);
       }

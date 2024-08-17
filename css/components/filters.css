@@ -17,8 +17,10 @@
       --salt-focused-outline: none;
     }
 
-    .saltButton:focus-visible {
-      border-color: transparent;
+    &[aria-checked="true"] {
+      .saltButton:focus-visible {
+        border-color: transparent;
+      }
     }
   }
 

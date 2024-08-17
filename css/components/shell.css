@@ -17,6 +17,15 @@
     }
   }
 
+  #vuu-side-toolbar {
+    .vuuTab {
+      --tab-thumb-width: 3px;
+      --tab-thumb-height: 100%;
+      --vuu-icon-size: 20px;
+      padding-left: var(--salt-spacing-400);
+    }
+  }
+
   #vuu-workspace-container {
     background-color: var(--salt-container-secondary-background);
     padding-top: var(--salt-spacing-200);
