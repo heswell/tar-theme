@@ -1,5 +1,29 @@
 .salt-theme.tar-theme {
   .saltDialog {
+    background-color: var(--salt-container-secondary-background);
+    padding-top: 0;
     width: fit-content;
+  }
+
+  .saltDialogContent {
+    background-color: var(--salt-container-secondary-background);
+  }
+
+  .saltDialogHeader {
+    align-items: center;
+    background-color: var(--salt-container-primary-borderColor);
+    height: 28px;
+    padding-bottom: 0;
+
+    h2.saltText {
+      font-size: 11px;
+    }
+  }
+
+  .saltDialogCloseButton {
+    --saltButton-background: var(--salt-container-primary-borderColor);
+    right: 4px;
+    top: 4px;
+    width: 20px;
   }
 }
